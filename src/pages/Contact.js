@@ -14,7 +14,7 @@ const Contact = () => {
                 <div className="contactBox">
                     <h1>Contactez-moi</h1>
                     <ul>
-                        <li><i className="fas fa-map-marker-alt"></i><span>Nantes</span></li>
+                        <li><i className="fas fa-map-marker-alt"><span>Nantes</span></i></li>
                         <li><i className="fas fa-mobile-alt">
                             <CopyToClipboard text="0638180364">
                                 <span className="clickInput" onClick={() => { alert('Téléphone copié !');}}>06 38 18 03 64</span>

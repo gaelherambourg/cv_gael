@@ -84,7 +84,7 @@
       span {
         font-size: 1.4rem;
         position: absolute;
-        transform: translateX(52px);
+        transform: translateX(50px);
         background: transparent;
         border: none;
         outline: none;
@@ -104,11 +104,11 @@
     ul {
       display: flex;
       text-align: center;
-      width: 100%;
+      width: 50%;
       justify-content: space-around;
 
       a {
-        width: 20%;
+        width: 40%;
         font-size: 1.2rem;
         background: $color-5;
         border-radius: $borderRadius;
