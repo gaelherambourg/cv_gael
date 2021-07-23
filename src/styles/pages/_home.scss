@@ -1,7 +1,10 @@
 .home {
 
+  
+
   .homeContent {
-    background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+    opacity: 0.9;
+    background: linear-gradient(115deg, $color-1 60%, rgb(36, 36, 36) 100%);
     min-height: $minHeight;
     width: 100%;
     min-height: 500px;
@@ -14,7 +17,7 @@
       position: absolute;
       height: 100%;
       width: inherit;
-      background: url('../../media/bigGates.jpg') no-repeat center/cover;
+      //background: url('../../media/bigGates.jpg') no-repeat center/cover;
       z-index: -1;
       filter: brightness(30%);
     }
@@ -22,15 +25,16 @@
     .content {
       position: absolute;
       top: 20%;
-      left: 13%;
       font-family: $font-1;
-
+      left: 10%;
+      right: 10%;
       h1 {
         font-size: 5rem;
         font-family: $font-3;
         color: $color-5;
         text-transform: uppercase;
         text-shadow: 3px 6px 2px $black;
+        
       }
       h2 {
         font-size: 2.5rem;
@@ -39,9 +43,12 @@
         text-shadow: 1px 4px 1px $black;
       }
       .pdf {
+        display: flex;
+        justify-content: center;
         a {
           font-size: 1.5rem;
-          background: $color-3;
+          background: black;
+          opacity: 0.55;
           padding: 1rem 2rem;
           border-radius: $borderRadius;
           box-shadow: 0 5px 1px rgb(15, 15, 15);
@@ -49,6 +56,7 @@
 
           &:hover {
             background: $color-4;
+            color: black;
           }
         }
       }

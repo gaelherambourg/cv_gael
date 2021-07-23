@@ -1,5 +1,6 @@
 .portfolio {
   .portfolioContent {
+    opacity: 0.9;;
     width: 100%;
     display: grid;
     min-height: $minHeight;
@@ -22,7 +23,7 @@
     box-shadow: $shadow;
 
     li {
-      color: $color-4;
+      color: $color-5;
       font-size: 1.1rem;
       text-transform: uppercase;
       padding: 0 1rem;
@@ -69,7 +70,7 @@
         left: -6px;
       }
       input:checked + label {
-        color: $color-5;
+        color: white;
       }
       label {
         cursor: pointer;
@@ -83,7 +84,7 @@
     justify-content: space-around;
 
     .project {
-      background: $color-2;
+      background: $color-1;
       border-radius: $borderRadius;
       margin: 0.5rem 0 0 0;
       text-align: center;
@@ -108,7 +109,7 @@
       i {
         font-size: 1.4rem;
         padding: 0 .35rem;
-        color: $color-5;
+        color: $color-6;
         text-shadow: 0 0px 1px $color-1;
       }
     }
